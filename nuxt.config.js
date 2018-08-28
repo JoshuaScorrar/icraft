@@ -10,8 +10,8 @@ module.exports = {
     title: 'my-project',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'google-site-verification', content: 'fuqxHgQ06Ce6srCUd2jJVxyknOKzrUGt9yhHkkgmRHE' },
+      { hid: 'viewport', name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'g-verification', name: 'google-site-verification', content: 'fuqxHgQ06Ce6srCUd2jJVxyknOKzrUGt9yhHkkgmRHE' },
       { hid: 'description', name: 'description', content: 'Nuxt.js + Vuetify.js project' }
     ],
     link: [
